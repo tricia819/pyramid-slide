@@ -1,0 +1,34 @@
+/* CSS for Tricia Gray's Pyramid Slide Assignment */
+
+#main{
+border: solid 2px #A95587;
+background-color: #EEEEEE;
+margin: auto;
+padding: auto;
+width: 50%;
+}
+
+#title {
+  color: #E5D9E3;
+  background-color: #A95587;
+  margin: auto;
+  padding: auto;
+  width: 50%;
+}
+
+#draw-form {
+  background-color: #CCCCCC;
+  color: black;
+  font-weight: bold;
+}
+
+#pyramid {
+  line-height: 0;
+  font-size: 30px;
+  color: #A95587;
+}
+
+body {
+  font-family: "Courier New", monospace;
+  text-align: center;
+}

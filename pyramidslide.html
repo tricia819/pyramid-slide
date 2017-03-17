@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="pyramidslide.css"/>
+    <title>Pyramid Slide!</title>
+</head>
+<body>
+    <div id="title">
+    <br>
+    <h1>Pyramid Slide</h1>
+    <br>
+    </div>
+    <br>
+    <div id="main">
+    <form id="draw-form">
+      <br>
+        <label>
+            Block Options:
+            <select id="blockType">
+            <option value="#">#</option>
+            <option value="@">@</option>
+            <option value="X">X</option>
+            <option value="$">$</option>
+            <option value="H">H</option>            </select>
+            </label>
+
+            <label for="height">How high?</label>
+            <input type="range" min="1" max="20" value="10" id="height"
+            oninput="outputUpdate(value)">
+            <output for="height" id="steps">10</output>
+      <p><br>
+    </form>
+    <br><br>
+
+    <div id="pyramid"></div>
+  </div>
+
+    <script src="pyramidslide.js"></script>
+</body>
+</html>
